@@ -22,9 +22,8 @@
     "zustand": "^4.4.7"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4.0.0-alpha.5"
   }
 }
