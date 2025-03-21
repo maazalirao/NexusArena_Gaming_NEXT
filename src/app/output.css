@@ -169,4 +169,4 @@ input:focus, textarea:focus, select:focus {
 /* Canvas touch behavior fix for mobile */
 canvas {
   touch-action: none;
-}
+} 

@@ -22,9 +22,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="dark">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased font-sans min-h-screen`}
       >
         <Providers>{children}</Providers>
       </body>
